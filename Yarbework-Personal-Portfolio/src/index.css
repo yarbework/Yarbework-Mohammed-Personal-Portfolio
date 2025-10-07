@@ -71,7 +71,7 @@
     
     --card: 0 0% 100%;
 
-    --primary: 250 47% 60%;
+    --primary: 228, 97%, 55%;
     --primary-foreground: 210 40% 98%;
 
     --border: 214 32% 91%;
@@ -83,7 +83,7 @@
     
     --card: 222 47% 8%;
 
-    --primary: 250 65% 65%;
+    --primary: 228, 97%, 55%;
     --primary-foreground: 213 31% 91%;
 
     --border: 217 33% 20%;
@@ -98,7 +98,7 @@
     @apply bg-background text-foreground transition-colors duration-300;
     font-feature-settings: 'rlig' 1, 'calt' 1;
    }
-}
+} 
 
 @utility container {
   margin-inline: auto;
@@ -124,7 +124,7 @@
 
 @utility text-glow{
   @apply relative;
-  text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
+  text-shadow: 0 0 10px rgba(167, 139, 250, 0.7);
 }
 
 @utility card-hover{
