@@ -1,3 +1,4 @@
+import { AboutMe } from "../component/AboutMe"
 import { HeroSection } from "../component/HeroSections"
 import { Navbar } from "../component/Navbar"
 import { StarBackground } from "../component/StarBackground"
@@ -18,6 +19,7 @@ export const Home = () => {
             {/* Main contents */}
                 <main>
                     <HeroSection/>
+                    <AboutMe />
                 </main>
             {/* Footer */}
         </div>
