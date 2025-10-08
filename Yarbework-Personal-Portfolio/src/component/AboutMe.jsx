@@ -1,4 +1,5 @@
 import {cn} from '@/lib/utils';
+import {Cable, Code, Cpu, PhoneIcon, Tangent, User} from 'lucide-react'
 
 export const AboutMe = () => {
     return (
@@ -14,10 +15,16 @@ export const AboutMe = () => {
                     Lorem ipsum dolor sit, amet consectetur
                      adipisicing elit. Sapiente debitis quidem
                       dolore distinctio, quos eos placeat illum quam 
+                      dolore distinctio, quos eos placeat illum quam 
+                      dolore distinctio, quos eos placeat illum quam 
+                      dolore distinctio, quos eos placeat illum quam 
                 </p>
                 <p className="text-muted-foreground">
                     Lorem ipsum dolor sit, amet consectetur
                      adipisicing elit. Sapiente debitis quidem
+                      dolore distinctio, quos eos placeat illum quam 
+                      dolore distinctio, quos eos placeat illum quam 
+                      dolore distinctio, quos eos placeat illum quam 
                       dolore distinctio, quos eos placeat illum quam 
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -31,10 +38,61 @@ export const AboutMe = () => {
                         Download CV
                     </a>
                 </div>
-                
             </div>
-            <div>
-
+            
+            <div className='grid grid-cols-1 gap-6'>
+                <div className='gradient-border p-6 card-hover '>
+                    <div className='flex items-start gap-4'>
+                        <div className='p-3 rounded-full bg-primary/10'>
+                            <Code className="h-6 w-6 text-primary"/>
+                        </div>
+                        <div className='text-left '>
+                            <h4 className='font-semibold text-lg'>Web Development</h4>
+                            <p className='text-muted foreground'>
+                                creating responsive websites and web applications with modern frameworks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className='gradient-border p-6 card-hover '>
+                    <div className='flex items-start gap-4'>
+                        <div className='p-3 rounded-full bg-primary/10'>
+                            <PhoneIcon className="h-6 w-6 text-primary"/>
+                        </div>
+                        <div className='text-left '>
+                            <h4 className='font-semibold text-lg'>Mobile App Development</h4>
+                            <p className='text-muted foreground'>
+                                creating responsive websites and web applications with modern frameworks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className='gradient-border p-6 card-hover '>
+                    <div className='flex items-start gap-4'>
+                        <div className='p-3 rounded-full bg-primary/10'>
+                            <Tangent className="h-6 w-6 text-primary"/>
+                        </div>
+                        <div className='text-left '>
+                            <h4 className='font-semibold text-lg'>Graphics Design</h4>
+                            <p className='text-muted foreground'>
+                                creating responsive websites and web applications with modern frameworks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className='gradient-border p-6 card-hover '>
+                    <div className='flex items-start gap-4'>
+                        <div className='p-3 rounded-full bg-primary/10'>
+                            <Cable className="h-6 w-6 text-primary"/>
+                        </div>
+                        <div className='text-left '>
+                            <h4 className='font-semibold text-lg'>Electrical and Computer Engineering Student</h4>
+                            <p className='text-muted foreground'>
+                                creating responsive websites and web applications with modern frameworks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
          </div>
          </div>
