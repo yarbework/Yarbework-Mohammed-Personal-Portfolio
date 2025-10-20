@@ -1,5 +1,6 @@
 import {cn} from '@/lib/utils';
-import {Cable, Code, Cpu, PhoneIcon, Tangent, User} from 'lucide-react'
+import {Cable, Code, PhoneIcon, Tangent} from 'lucide-react'
+import image from '../assets/yarbeworkMohammed.jpeg'
 
 export const AboutMe = () => {
     return (
@@ -10,6 +11,8 @@ export const AboutMe = () => {
             </h2>
          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
+            <img src={image} alt="yarbework-Mohammed" className="w-40 h-40 rounded-full mx-auto mb-4 object-cover shadow-lg" />
+
                 <h3 className="text-2xl font-semibold">Passionate Web and Mobile App developer</h3>
                 <p className="text-muted-foreground">
                     Lorem ipsum dolor sit, amet consectetur
