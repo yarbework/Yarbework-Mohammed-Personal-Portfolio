@@ -15,8 +15,9 @@ export const HeroSection =  () => {
                             <span className="opacity-0 animate-fade-in-delay-3"> Mohammed</span>
                         </h1>
                         <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-4">
-                             I create steller web experiences and Mobile Applications with modern technologies.
-                             Specializing in front-end development, I build interfaces that are both beautiful and functional.
+                           I build seamless Web and Mobile experiences with modern JavaScript technologies. 
+                           Specializing in the React ecosystem, 
+                           I create interfaces that are beautiful, functional, and performant.
                         </p>
                         <div className="pt-4 opacity-0 animate-fade-in-delay-4">
                             <a href="#projects" className="cosmic-button">

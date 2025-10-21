@@ -48,7 +48,7 @@ const TimelineItem = ({ certificate, index }) => {
 
             {/* The central timeline axis point */}
             <div className="z-10 flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
-                <h1 className="mx-auto font-semibold text-lg ">{index + 1}</h1>
+                <h1 className="mx-auto font-semibold text-white text-lg ">{index + 1}</h1>
             </div>
             
 
