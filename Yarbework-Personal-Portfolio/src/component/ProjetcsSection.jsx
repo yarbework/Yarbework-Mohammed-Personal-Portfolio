@@ -6,7 +6,7 @@ const projects = [
         description: " Full-featured e-commerce platform with user authentication.",
         image: "/projects/project-1.jpeg",
         tags: ["React", "TailwindCSS"],
-        demoUrl: "https://sink-academy.vercel.app"
+        demoUrl: "https://ketemafarm.vercel.app/"
     },
     {
         id: 2,
